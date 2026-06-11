@@ -126,4 +126,14 @@ Conteneurisation/
 
 ---
 
+## Améliorations possibles
+
+- **Monitoring** : Ajouter Prometheus + Grafana pour surveiller les conteneurs
+- **Alerting** : Notifications en cas de panne (email, Slack)
+
+- **HTTPS** : Ajouter des certificats TLS sur le load balancer
+
+- **Dockerfile custom** : Créer une image backup avec Restic pré-installé pour éviter la réinstallation à chaque redémarrage
+---
+
 Yarkin ONER
