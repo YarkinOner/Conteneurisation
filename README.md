@@ -46,6 +46,22 @@ Mise en place d'une infrastructure conteneurisée avec Docker, incluant des serv
 
 ---
 
+## Captures d'écran
+
+### 1. Conteneurs en cours d'exécution
+![docker ps](screenshots/docker_ps.png)
+
+### 4. Load Balancer (port 8080)
+![loadbalancer](screenshots/loadbalancer.png)
+
+### 5. Snapshots Restic
+![restic snapshots](screenshots/restic_snapshots.png)
+
+### 6. Test de panne — service toujours disponible (HTTP 200)
+![failover test](screenshots/failover_test.png)
+
+---
+
 ## Étapes réalisées
 
 ### Étape 1 – Infrastructure de base
